@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_normal_margin">
+
+    <TextView
+        android:id="@+id/fragment_talk_list_view_top_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2017 12 04 16:58"
+        android:textColor="#FFD1DCEA"
+        android:textSize="12sp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp">
+
+        <ImageView
+            android:id="@+id/fragment_talk_list_view_top_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_chat_ec"/>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/fragment_talk_list_view_image_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:adjustViewBounds="true"
+                android:maxHeight="200dp"
+                android:paddingLeft="@dimen/activity_normal_margin"
+                android:scaleType="fitXY"/>
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:descendantFocusability="blocksDescendants"
+              android:gravity="center"
+              android:orientation="horizontal"
+    android:background="#48656f"
+    android:paddingBottom="20dp" >
+
+    <View
+        android:visibility="gone"
+        android:id="@+id/fragment_ethic_principles_list_view_child_line"
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="5dp"></View>
+
+    <TextView
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="67dp"
+        android:id="@+id/fragment_ethic_principles_list_view_child_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:visibility="visible"
+        android:text="fsddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"/>
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@mipmap/illust_back_welcome">
+    <ImageView
+        app:layout_marginTopPercent="4.9%h"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/img_logo_ec_79"/>
+
+    <ImageView
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/img_ec_name"
+        app:layout_marginTopPercent="18%h"/>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="An access to"
+        android:textSize="31sp"
+        android:textColor="@color/White"/>
+
+    <TextView
+        app:layout_marginTopPercent="3%h"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Employees, partners of our company"
+        android:textSize="16sp"
+        android:textColor="@color/White"/>
+
+    <TextView
+        app:layout_marginTopPercent="0.9%h"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For reporting unethical behavior,
+request for ethics informations"
+        android:textSize="22sp"
+        android:textColor="@color/White"/>
+    <TextView
+        app:layout_marginTopPercent="0.4%h"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consult the company
+Code of Ethics"
+        android:textSize="22sp"
+        android:textColor="@color/White"/>
+
+    <LinearLayout
+        android:id="@+id/ll_enter"
+        app:layout_marginTopPercent="2.5%h"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/button_enter"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter anonymously"
+            android:textSize="20sp"
+            android:textColor="@color/White"/>
+    </LinearLayout>
+</com.zhy.android.percent.support.PercentLinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D90F3543"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:adjustViewBounds="true"
+            android:src="@mipmap/illust_codeofethics"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/img_arrowback"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/img_titlecodeofethics"/>
+        </LinearLayout>
+    </FrameLayout>
+
+    <ExpandableListView
+        android:id="@+id/list_principles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:childDivider="@android:color/transparent"
+        android:clipToPadding="false"
+        android:divider="@null"
+        android:groupIndicator="@null"
+        android:scrollbars="none"
+        android:paddingBottom="80dp"
+        ></ExpandableListView>
+
+</LinearLayout>

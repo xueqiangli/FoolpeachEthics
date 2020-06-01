@@ -1,0 +1,76 @@
+<resources>
+    <string name="loading">正在加载...</string>
+    <string name="cancel">取消</string>
+    <string name="log_in_user_name">用户名</string>
+    <string name="log_in_password">密码</string>
+    <string name="log_in_password_login">登陆</string>
+    <string name="log_in_password_logout">退出</string>
+    <string name="log_in_password_enter">直接进入</string>
+    <string name="home">主屏幕</string>
+    <string name="ethic">道德准则</string>
+    <string name="my_ethic">我的准则</string>
+    <string name="chat">讨论</string>
+    <string name="our_principles">我们的原则</string>
+    <string name="testimonial">测试</string>
+    <string name="respect">\"尊重道德准则\n一直是家乐福最重视的方面\n之一\"</string>
+    <string name="next">下一个</string>
+    <string name="score">评分</string>
+    <string name="score_show">评分: %1$d</string>
+    <string name="quizz_index">%1$d &lt;font color=\"#F6A623\"&gt;|&lt;/font&gt; %2$d</string>
+    <string name="quizz_very_bad_title">你开玩笑吗？</string>
+    <string name="quizz_very_bad_content">你的道德标准\n不符合家乐福中国\n原则！</string>
+    <string name="quizz_bad_title">反思自己！</string>
+    <string name="quizz_bad_content">你应该花时间\n复查家乐福中国\n道德准则</string>
+    <string name="quizz_good_title">太好了！</string>
+    <string name="quizz_good_content">家乐福中国道德准则\n掌握的很好，但是\n还有进步空间！</string>
+    <string name="quizz_very_good_title">你是最棒的！</string>
+    <string name="quizz_very_good_content">很好，\n你是家乐福道德准则\n大使！</string>
+    <string name="my_ethic_info">还有我？\n点击下面，支持我的原则</string>
+    <string name="my_ethic_rank_title">在家乐福中国\n对最认可的道德准则\n排名</string>
+    <string name="my_ethic_rank_count">认可的数量:&lt;b&gt;%1$d&lt;/b&gt;</string>
+    <string name="my_ethic_endorse_title">选择你认可的\n家乐福道德准则！</string>
+    <string name="my_ethic_endorse">支持</string>
+    <string name="my_ethic_camera_name">我,</string>
+    <string name="talk_info_title_why">为什么使用道德准则讨论区？</string>
+    <string name="talk_info_content_why">• 如果你在家乐福有关于道德准则的问题\n\n• 如果你对家乐福全球采购的员工、供应商、服务提供商或者工厂等的道德行为有疑问的\n\n• 如果你想在公司内暴露道德方面的问题\n\n• 如果你有其他关于家乐福道德准则的问题</string>
+    <string name="talk_info_title_ano">匿名保证！</string>
+    <string name="talk_info_content_ano">家乐福全球采购保证道德讨论区的所有形式的沟通是严格保密和匿名的。\n\n家乐福全球采购会在72小时内回复。</string>
+    <string name="talk_info_title_reply">24小时内回复</string>
+    <string name="talk_info_content_ano_red"><![CDATA[道德讨论是一个专门用来收集有关道德事件或投诉的<b><font color=\"#D0011B\">匿名</font></b>的热线]]></string>
+    <string name="talk_info_title_ano_red">匿名保证</string>
+    <string name="press_to_talk">按住说话</string>
+    <string name="get_msg">你有%d条新消息</string>
+
+    <string name="permission_camera">访问摄像机所需的权限</string>
+    <string name="permission_audio">访问麦克风需要权限</string>
+    <string name="permission_write_sd">访问存储所需的权限</string>
+    <string name="denied_notify">通知所需的权限</string>
+    <string name="register_failed">初始化失败</string>
+    <string name="send_failed">消息发送失败</string>
+    <string name="endorse_failed">Endorse is failed,please try again.</string>
+    <string name="recorder_short">录制时间太短</string>
+    <string name="only_jpg">只允许JPEG文件</string>
+    <string name="failed_exit">文件未找到</string>
+    <string name="copy">复制</string>
+    <string name="copy_success">已复制</string>
+    <string name="recall">撤回</string>
+    <string name="recall_success">已撤回</string>
+    <string name="recall_failed">撤回失败</string>
+    <string name="chat_empty">欢迎来到家乐福全球采购“道德讨论”区！</string>
+    <string name="cancel_record">手指上滑，取消发送</string>
+    <string name="release_cancel_record">松开手指，取消发送</string>
+
+    <string name="version">版本</string>
+    <string name="lan">语言</string>
+    <string name="term_use">使用条款</string>
+    <string name="term_use_content"></string>
+    <string name="set">设置</string>
+    <string name="bt_disagree">拒绝</string>
+    <string name="bt_agree">同意</string>
+    <string name="chat_blocked">消息发送失败</string>
+    <string name="sd_require">需要SD卡</string>
+    <string name="camera_failed">拍照失败</string>
+    <string name="endorse_ethical_principale">我支持家乐福道德准则</string>
+    <string name="information">信息</string>
+
+</resources>

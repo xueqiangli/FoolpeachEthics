@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/White"
+    android:orientation="vertical">
+
+    <ImageView
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/img_ethics"/>
+
+    <ImageView
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/img_back_fp_v2"/>
+
+    <View
+        android:visibility="gone"
+        android:id="@+id/btn_set"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="right|top"
+        android:layout_marginRight="65dp"
+        android:layout_marginTop="145dp"></View>
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <ImageView
+            app:layout_marginTopPercent="6.0%h"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@mipmap/img_fp_ethics_black"
+            app:layout_heightPercent="10%h"/>
+        <ImageView
+            android:id="@+id/img_code"
+            app:layout_marginTopPercent="4.9%h"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@mipmap/button_codeofethics"
+            app:layout_heightPercent="19.7%h"/>
+        <ImageView
+            android:id="@+id/img_cultural_driven"
+            app:layout_marginTopPercent="3.7%h"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@mipmap/button_cultureldriven"
+            app:layout_heightPercent="19.7%h"/>
+        <ImageView
+            android:id="@+id/img_chat"
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@mipmap/button_ethicschat"
+            app:layout_heightPercent="19.7%h"
+            android:layout_marginTop="10dp"/>
+
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="50dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linear_principles"
+            style="@style/linear_principles">
+
+            <ImageView
+                style="@style/wrap_wrap"
+                android:layout_marginRight="25dp"
+                android:src="@drawable/img_eye"/>
+
+            <ImageView
+                style="@style/wrap_wrap"
+                android:src="@drawable/img_principales"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_myethic"
+            style="@style/linear_principles">
+
+            <ImageView
+                style="@style/wrap_wrap"
+                android:layout_marginRight="25dp"
+                android:src="@drawable/img_eye"/>
+
+            <ImageView
+                style="@style/wrap_wrap"
+                android:src="@drawable/img_myethic"/>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/linear_chat"
+                style="@style/linear_principles">
+
+                <ImageView
+                    style="@style/wrap_wrap"
+                    android:layout_marginRight="25dp"
+                    android:src="@drawable/img_eye"/>
+
+                <ImageView
+                    style="@style/wrap_wrap"
+                    android:src="@drawable/img_chat"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/activity_main_msg_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|left"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/circle_red_bg"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="@android:color/white"
+                android:textSize="8sp"
+                android:visibility="invisible"/>
+
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

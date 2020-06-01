@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uk.co.senab.photoview.PhotoView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_photo_detail_view_pager_img"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>

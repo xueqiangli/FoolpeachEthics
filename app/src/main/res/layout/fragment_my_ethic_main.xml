@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@mipmap/illust_back_cultureldriven">
+
+    <com.zhy.android.percent.support.PercentFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/fragment_my_ethic_main_view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+
+        
+        <LinearLayout
+            android:id="@+id/ll_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            app:layout_marginBottomPercent="11.4%h">
+
+        </LinearLayout>
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/fragment_my_ethic_main_bt_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="100dp"
+            android:adjustViewBounds="true"
+            android:paddingRight="@dimen/activity_normal_margin"
+            android:src="@drawable/bt_next"/>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/fragment_my_ethic_main_bt_previous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="100dp"
+            android:adjustViewBounds="true"
+            android:paddingLeft="@dimen/activity_normal_margin"
+            android:src="@drawable/bt_previous"/>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/fragment_my_ethic_main_bottom_parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="70dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_gravity="bottom">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="and me?"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"/>
+
+            <ImageView
+                android:id="@+id/btn_get_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/bt_get_in"/>
+
+        </LinearLayout>
+    </com.zhy.android.percent.support.PercentFrameLayout>
+
+
+</LinearLayout>

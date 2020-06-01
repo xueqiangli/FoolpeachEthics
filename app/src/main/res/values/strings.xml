@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name" translatable="false">UCM</string>
+
+    <string name="loading">loading...</string>
+    <string name="cancel">Cancel</string>
+    <string name="log_in_user_name">user name</string>
+    <string name="log_in_password">pass word</string>
+    <string name="log_in_password_login">login</string>
+    <string name="log_in_password_logout">logout</string>
+    <string name="log_in_password_enter">enter without login</string>
+    <string name="home">Home</string>
+    <string name="ethic">Ethic</string>
+    <string name="my_ethic">My Ethic</string>
+    <string name="chat">chat</string>
+    <string name="our_principles">Our principles</string>
+    <string name="testimonial">Testimonial</string>
+    <string name="respect">\"Respecting ethical principles\nis one of Carrefour\'s\nhighest priorities\"</string>
+    <string name="next">next</string>
+    <string name="score">score</string>
+    <string name="score_show">score: %1$d</string>
+    <string name="quizz_index">%1$d &lt;font color=\"#F6A623\"&gt;|&lt;/font&gt; %2$d</string>
+    <string name="quizz_very_bad_title">are you kidding ?</string>
+    <string name="quizz_very_bad_content">Your ethic standards are not\nin line with Carrefour China\nprinciples !</string>
+    <string name="quizz_bad_title">LOOK AT YOURSELF !</string>
+    <string name="quizz_bad_content">You should spend time in\nreviewing Carrefour China\nethic principles !</string>
+    <string name="quizz_good_title">yes !</string>
+    <string name="quizz_good_content">Good knowledge of Carrefour\nChina ethic principles, but you\nstill can improve !</string>
+    <string name="quizz_very_good_title">you\'re the best !</string>
+    <string name="quizz_very_good_content">Very good, you are an\nambassador of Carrefour ethics\nprinciples !</string>
+    <string name="my_ethic_info">And me?\nClick below, and endorse a principle!</string>
+    <string name="my_ethic_rank_title">Ranking of the most endorsed\nEthic principles in\n Carrefour China</string>
+    <string name="my_ethic_rank_count">Number of endorsement:&lt;b&gt;%1$d&lt;/b&gt;</string>
+    <string name="my_ethic_endorse_title">Select the Carrefour Ethic principle\nyou want to endorse!</string>
+    <string name="my_ethic_endorse">…endorse the Carrefour China\nEthical Principle</string>
+    <string name="my_ethic_camera_name">Me,</string>
+    <string name="talk_info_title_why">Why using the chat ?</string>
+    <string name="talk_info_content_why">• If you have question(s) about ethic principles in Foolpeach…
+\n\n
+• If you have question(s) about the ethic behaviour of a supplier, a colleagues…
+\n\n
+• If you want to expose an ethic problem within the company…
+\n\n
+• If you have any other question…</string>
+    <string name="talk_info_title_ano">Anonimity !</string>
+    <string name="talk_info_content_ano">FP will keep all the information private, if you decide to use this menu, you have to know that your message will be anonymous…</string>
+    <string name="talk_info_title_reply">Reply within 24 hours</string>
+    <string name="talk_info_content_ano_red"><![CDATA[EthicChat is an <b><font color=\"#D0011B\">anonymous</font></b> hotline set up to receive Ethical issues or complaints.]]></string>
+    <string name="talk_info_title_ano_red">Anonymity Guaranteed</string>
+    <string name="press_to_talk">Press and hold to talk</string>
+    <string name="get_msg">You have %d new message !</string>
+
+    <string name="permission_camera">Permission required to access camera</string>
+    <string name="permission_audio">Permission required to access microphone</string>
+    <string name="permission_write_sd">Permission required to access storage</string>
+    <string name="denied_notify">Permission required for notification</string>
+    <string name="register_failed">Initialization failed</string>
+    <string name="send_failed">Message failed to send</string>
+    <string name="endorse_failed">Endorse is failed,please try again.</string>
+    <string name="recorder_short">Recording is too short</string>
+    <string name="only_jpg">Only JPEG files allowed</string>
+    <string name="failed_exit">File not found</string>
+    <string name="copy">Copy</string>
+    <string name="copy_success">Copy Success</string>
+    <string name="recall">Recall</string>
+    <string name="recall_success">Recall Success</string>
+    <string name="recall_failed">Recall failed</string>
+    <string name="chat_empty">Welcome to the EthicChat of Foolpeach ! Don’t hesitate to use it !</string>
+    <string name="cancel_record">Slide up to cancel</string>
+    <string name="release_cancel_record">Release to cancel</string>
+
+    <string name="version">Version</string>
+    <string name="lan">Language</string>
+    <string name="lan_en" translatable="false">English/英文</string>
+    <string name="lan_zh" translatable="false">Chinese/中文</string>
+    <string name="term_use">Terms of use</string>
+    <string name="term_use_content"></string>
+    <string name="set">Setting</string>
+    <string name="bt_disagree">disagree</string>
+    <string name="bt_agree">agree</string>
+    <string name="chat_blocked">Message failed to send</string>
+    <string name="sd_require">Required SD card.</string>
+    <string name="camera_failed">Get camera Failed.</string>
+    <string name="endorse_ethical_principale">I\'ve got the Foolpeach state of mind</string>
+    <string name="information">Information</string>
+    <string name="set_info_content" translatable="false">Foolpeach (Shanghai Tianjin Enterprise Management Consulting Co., Ltd.),\ndevelops Human &amp; Digital Solutions for Retailers.\nwww.foolpeach.com</string>
+    <string name="album">Album</string>
+    <string name="camera">Camera</string>
+    <string name="document">Document</string>
+</resources>

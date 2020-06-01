@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/fragment_my_ethic_main_view_pager_photo"
+        android:layout_width="199dp"
+        android:layout_height="199dp"
+        android:layout_marginBottom="@dimen/answer_bg_corner_size"
+        android:adjustViewBounds="true"
+        android:background="@drawable/round_rec_white"
+        android:padding="5dp"
+        android:scaleType="fitXY"
+        app:layout_marginTopPercent="6.8%h"
+        app:layout_heightPercent="32.5%h"
+        app:layout_widthPercent="32.5%h"/>
+
+    <LinearLayout
+        android:id="@+id/fragment_my_ethic_main_view_pager_person_info_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_marginTopPercent="2.5%h"
+        >
+        <TextView
+            android:id="@+id/fragment_my_ethic_main_view_pager_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FAFAFA"
+            android:textSize="18sp"
+            tools:text="Elton Mac Lane"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/fragment_my_ethic_main_view_pager_job"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FAFAFA"
+            android:textSize="18sp"
+            tools:text="Head of Security"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+
+        android:id="@+id/fragment_my_ethic_main_view_pager_static"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Encourage,"
+        android:textColor="#FAFAFA"
+        android:textSize="18sp"
+        app:layout_marginTopPercent="6.2%h"
+        />
+
+    <TextView
+        android:id="@+id/fragment_my_ethic_main_view_pager_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#FAFAFA"
+        android:textSize="20sp"
+        tools:text="Encourage,"
+        app:layout_marginTopPercent="1.4%h"
+        android:textStyle="italic"
+        android:lines="2"
+        android:ellipsize="end"
+        />
+
+</com.zhy.android.percent.support.PercentLinearLayout>

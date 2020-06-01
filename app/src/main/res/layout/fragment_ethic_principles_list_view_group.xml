@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="62dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/fragment_ethic_principles_list_view_group_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/img_eye"
+        android:visibility="gone" />
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:id="@+id/txt_index"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:textSize="30sp"
+        android:textColor="@color/White"
+        android:gravity="center"
+        android:text="1"
+        android:background="@drawable/shape_round_code_index_294b57"/>
+    <TextView
+        android:id="@+id/fragment_ethic_principles_list_view_group_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="hahhahhahahhahahahhahhahah"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/slice_arrow_open"
+       />
+</LinearLayout>

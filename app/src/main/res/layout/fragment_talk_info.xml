@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/talk_info_title"
+                android:text="@string/talk_info_title_why"/>
+
+            <TextView
+                style="@style/talk_info_content"
+                android:text="@string/talk_info_content_why"/>
+
+            <TextView
+                style="@style/talk_info_title"
+                android:text="@string/talk_info_title_ano"/>
+
+            <TextView
+                style="@style/talk_info_content"
+                android:paddingBottom="25dp"
+                android:text="@string/talk_info_content_ano"/>
+
+            <TextView
+                style="@style/talk_info_title"
+                android:text="@string/talk_info_title_reply"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <FrameLayout
+        android:id="@+id/btn_start_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/colorPrimary"
+        android:paddingBottom="50dp"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/bt_start_chat"/>
+    </FrameLayout>
+
+</LinearLayout>

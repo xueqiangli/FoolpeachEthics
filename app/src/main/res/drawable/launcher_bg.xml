@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+            android:opacity="opaque">
+
+
+
+    <item android:top="55dp">
+        <bitmap
+            android:gravity="right|top"
+            android:src="@mipmap/illust_back_welcome"></bitmap>
+    </item>
+
+    <item android:top="84dp">
+        <bitmap
+            android:gravity="center_horizontal|top"
+            android:src="@mipmap/img_logo_ec_79"></bitmap>
+    </item>
+
+    <item android:bottom="330dp" android:left="30dp">
+        <bitmap
+            android:gravity="bottom|left"
+            android:src="@mipmap/img_ec_name"></bitmap>
+    </item>
+
+    <item android:bottom="90dp">
+        <bitmap
+            android:gravity="center_horizontal|bottom"
+            android:src="@drawable/img_ethics"></bitmap>
+    </item>
+
+</layer-list>
